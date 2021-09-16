@@ -1,0 +1,4 @@
+console.log("HID testscript");
+layout("US");
+typingSpeed(3,0);
+type("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m");
